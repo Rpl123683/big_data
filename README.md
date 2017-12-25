@@ -6,11 +6,11 @@
 sudo docker run -i -t sequenceiq/hadoop-ubuntu:2.6.0 /etc/bootstrap.sh -bash
 ### Copy files to Docker:
 
-sudo docker ps sudo docker cp ./for_hadoop/map2.py clever_bell:map2.py
-sudo docker cp ./for_hadoop/reduce2.py clever_bell:reduce2.py
-sudo docker cp ./for_hadoop/map1.py clever_bell:map1.py
-sudo docker cp ./for_hadoop/reduce1.py clever_bell:reduce1.py
-sudo docker cp ./for_hadoop/star.csv clever_bell:test.csv
+#### sudo docker ps sudo docker cp ./for_hadoop/map2.py clever_bell:map2.py
+#### sudo docker cp ./for_hadoop/reduce2.py clever_bell:reduce2.py
+#### sudo docker cp ./for_hadoop/map1.py clever_bell:map1.py
+#### sudo docker cp ./for_hadoop/reduce1.py clever_bell:reduce1.py
+#### sudo docker cp ./for_hadoop/star.csv clever_bell:test.csv
 
 
 ### Add data to hdfs
